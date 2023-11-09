@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  
+  article {
+    flex: 1;
+    transition: margin-right 0.3s ease;
+    padding: 20px;
+  }
+  
+  aside {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ukrycie aside na początku */
+  aside {
+    margin-right: -250px;
+  }
+  
+  /* Dodatkowe style do ulepszenia czytelności */
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Dodaj dowolne dodatkowe style według potrzeb */
+  
