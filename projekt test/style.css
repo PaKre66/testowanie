@@ -23,7 +23,7 @@ body {
   
   aside {
     width: 250px;
-    transition: margin;
+    transition: margin-right 0.3s ease-out;;
     background-color: #f0f0f0;
     padding: 20px;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@ body {
   /* Ukrycie aside na początku */
   aside {
     margin-right: -350px;
-    /* display: none;  */
+    /* display: none;   */
   }
   
   /* Dodatkowe style do ulepszenia czytelności */
