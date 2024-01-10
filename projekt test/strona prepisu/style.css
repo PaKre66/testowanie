@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body>header{
+    background-color: #6B4942;
+}
+body>header>h1{
+    line-height: 10vh;
+    padding-left: 50px;
+
+}
+/* navigacja+dropdown */
+nav{
+    background-color: #501;
+} 
+/* aside button */
+nav>ul>button{
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(17, 29, 29);
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+nav ul.dropdown{
+    background-color: rgba(170, 204, 204, 0.9);
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    width: 10vw;
+}
+nav ul.dropdown>li:hover{
+    background-color: #9aa;
+} 
+nav ul.dropdown > li a {
+    display: block;
+    text-align: center;
+}
+
+nav ul.dropdown > li a:hover {
+    text-decoration: underline;
+}
+    
+nav>ul>li{
+    height: 5vh;
+    line-height: 5vh;
+}
+    
+nav>ul>li>a{
+    display: block;
+    text-align: center;
+    width: 10vw
+}
+    
+nav>ul>li:hover{
+    background-color: #acc;
+}
+    
+nav>ul>li:hover ul.dropdown{
+    display: block;
+}
+/* login */
+nav>ul>p>a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    display: flex;
+}
+/* main */
+main{
+    display: flex;
+    background-image: url(./jedzenie-domowe-slupsk.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+main>article{
+
+    background-color:#ED6F55;
+    width: 100vw;
+    padding: 15px;
+    align-content: center;
+    
+}
+/* aside */
+aside {
+    width: 250px;
+    background-color: rgb(255, 70, 70);
+    padding: 20px;
+}
+aside {
+    margin-right: -250px;
+}
+/* stopka */
+body>footer{
+    background-color: #6B4942;
+    display: flex;
+    position: absolute;
+    width: 100vw;
+}
